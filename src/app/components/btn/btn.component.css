@@ -1,0 +1,36 @@
+button {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: var(--clr-rose);
+    padding: 0.5rem 1em;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(225, 29, 71, 0.5), 0 6px 6px rgba(225, 29, 71, 0.5), 0 0 100px -10px var(--clr-rose);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: var(--size-xs);
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(225, 29, 71, 0.25), 0 10px 10px rgba(225, 29, 71, 0.22), 0 0 120px -10px var(--clr-rose);
+}
+
+/* XS */
+@media (min-width: 475px) {
+    button{
+        font-size: var(--size-s);
+    }
+}
+
+@media (min-width: 768px) {
+    button {
+        font-size: var(--size-base);
+    }
+}
+
+@media (min-width: 1280px) {
+    button {
+        font-size: var(--size-xl);
+    }
+}
