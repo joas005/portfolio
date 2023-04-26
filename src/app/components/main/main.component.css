@@ -22,7 +22,7 @@ h2 {
 
 h1 {
 	color: var(--clr-slate400);
-	font-size: var(--size-4xl);
+	font-size: var(--size-3xl);
 	text-transform: uppercase;
 	letter-spacing: -0.05em;
 	line-height: 0.9;
@@ -50,7 +50,7 @@ p {
 	}
 
 	h1 {
-		font-size: var(--size-5xl);
+		font-size: var(--size-4xl);
 	}
 
 	p {
@@ -78,7 +78,7 @@ p {
 	}
 
 	h1 {
-		font-size: var(--size-7xl);
+		font-size: var(--size-6xl);
 	}
 
 	p {
@@ -102,7 +102,7 @@ p {
 	}
 
 	h1 {
-		font-size: var(--size-8xl);
+		font-size: var(--size-7xl);
 	}
 
 	p {

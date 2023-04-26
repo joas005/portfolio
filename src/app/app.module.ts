@@ -8,6 +8,7 @@ import { BtnComponent } from './components/btn/btn.component';
 import { GapComponent } from './components/gap/gap.component';
 import { NavComponent } from './components/nav/nav.component';
 import { MainComponent } from './components/main/main.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainComponent } from './components/main/main.component';
     BtnComponent,
     GapComponent,
     NavComponent,
-    MainComponent
+    MainComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
