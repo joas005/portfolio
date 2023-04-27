@@ -9,6 +9,8 @@ import { GapComponent } from './components/gap/gap.component';
 import { NavComponent } from './components/nav/nav.component';
 import { MainComponent } from './components/main/main.component';
 import { AboutComponent } from './components/about/about.component';
+import { FeaturedComponent } from './components/featured/featured.component';
+import { FeaturedImagesComponent } from './components/featured-images/featured-images.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AboutComponent } from './components/about/about.component';
     GapComponent,
     NavComponent,
     MainComponent,
-    AboutComponent
+    AboutComponent,
+    FeaturedComponent,
+    FeaturedImagesComponent
   ],
   imports: [
     BrowserModule,
