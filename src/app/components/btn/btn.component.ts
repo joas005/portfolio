@@ -8,4 +8,8 @@ import { Component, Input } from '@angular/core';
 export class BtnComponent {
   @Input()
   btnText: string = '';
+  @Input()
+  btnLink: string = '';
+  @Input()
+  btnTarget: string = '';
 }

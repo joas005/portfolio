@@ -12,6 +12,7 @@
 
 /* XL */
 @media (min-width: 1280px) {}
+
 /* 2XL */
 @media (min-width: 1536px) {}
 
@@ -92,7 +93,6 @@ strong {
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  border: 1px solid red;
 } 
 
 /* XS */

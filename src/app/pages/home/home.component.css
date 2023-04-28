@@ -6,6 +6,10 @@ header {
     padding-bottom: 2rem; 
 }
 
+app-nav {
+    display: none;
+}
+
 /* XS */
 @media (min-width: 475px) {}
 
@@ -13,7 +17,15 @@ header {
 @media (min-width: 640px) {}
 
 /* M */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    app-nav {
+        display: block;
+    }
+
+    app-mobile-nav {
+        display: none;
+    }
+}
 
 /* L */
 @media (min-width: 1024px) {}

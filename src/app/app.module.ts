@@ -11,6 +11,12 @@ import { MainComponent } from './components/main/main.component';
 import { AboutComponent } from './components/about/about.component';
 import { FeaturedComponent } from './components/featured/featured.component';
 import { FeaturedImagesComponent } from './components/featured-images/featured-images.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectsImagesComponent } from './components/projects-images/projects-images.component';
+import { InverseProjectsImagesComponent } from './components/inverse-projects-images/inverse-projects-images.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MobileNavComponent } from './components/mobile-nav/mobile-nav.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { FeaturedImagesComponent } from './components/featured-images/featured-i
     MainComponent,
     AboutComponent,
     FeaturedComponent,
-    FeaturedImagesComponent
+    FeaturedImagesComponent,
+    ProjectsComponent,
+    ProjectsImagesComponent,
+    InverseProjectsImagesComponent,
+    ContactComponent,
+    FooterComponent,
+    MobileNavComponent,
   ],
   imports: [
     BrowserModule,

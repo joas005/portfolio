@@ -2,13 +2,6 @@ ul {
 	display: none;
 }
 
-.barMenu {
-	display: block;
-	color: var(--clr-slate600);
-	width: var(--size-2xl);
-	height: var(--size-2xl);
-}
-
 li {
 	transition: scale 0.2s;
 }
@@ -18,10 +11,6 @@ li:hover {
 }
 
 @media (min-width: 768px) {
-	.barMenu {
-		display: none;
-	}
-
 	ul {
 		display: flex;
 		align-items: center;
@@ -31,7 +20,7 @@ li:hover {
 	}
 
 	a {
-		font-size: var(--size-xs);
+		font-size: var(--size-base);
 		font-weight: 600;
 		color: var(--clr-slate600);
 		letter-spacing: -0.05em;
@@ -58,7 +47,7 @@ li:hover {
 /* L */
 @media (min-width: 1024px) {
   a {
-		font-size: var(--size-s);
+		font-size: var(--size-l);
 	}
 
 	.lightMode {
@@ -70,7 +59,7 @@ li:hover {
 /* XL */
 @media (min-width: 1280px) {
   a {
-		font-size: var(--size-base);
+		font-size: var(--size-xl);
 	}
 
 	.lightMode {
