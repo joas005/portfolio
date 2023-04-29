@@ -9,6 +9,7 @@ button {
     box-shadow: 0 10px 20px rgba(225, 29, 71, 0.5), 0 6px 6px rgba(225, 29, 71, 0.5), 0 0 100px -10px var(--clr-rose);
     transition: transform 0.3s, box-shadow 0.3s;
     font-size: var(--size-xs);
+    color: #f1f5f9;
 }
 
 button:hover {

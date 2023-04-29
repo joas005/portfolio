@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
 	selector: 'app-mobile-nav',
@@ -6,6 +6,21 @@ import { Component } from '@angular/core';
 	styleUrls: ['./mobile-nav.component.css'],
 })
 export class MobileNavComponent {
+	ngOnInit(): void {
+		const theme = localStorage.getItem('theme');
+		theme && document.body.classList.add(theme);
+		this.toggleTheme();
+	}
+
+	toggleTheme() {
+		document.body.classList.toggle('lightTheme');
+		if (document.body.classList.contains('lightTheme')) {
+			localStorage.setItem('theme', 'lightTheme');
+		} else {
+			localStorage.removeItem('theme');
+		}
+	}
+
 	controlMenu: boolean = false;
 	changePosition: string = 'relative';
 
@@ -14,13 +29,13 @@ export class MobileNavComponent {
 			this.controlMenu = false;
 			this.changePosition = 'relative';
 		} else {
-      this.controlMenu = true;
+			this.controlMenu = true;
 			this.changePosition = 'fixed';
 		}
 	}
 
-  goToSection():void {
-    this.controlMenu = false;
+	goToSection(): void {
+		this.controlMenu = false;
 		this.changePosition = 'relative';
-  }
+	}
 }

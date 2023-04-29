@@ -1,6 +1,7 @@
 .featured h2 {
 	font-size: var(--size-2xl);
 	color: var(--clr-slate400);
+    cursor: default;
     transition: transform 0.8s;
 }
 

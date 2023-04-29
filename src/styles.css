@@ -1,3 +1,5 @@
+@import '~normalize.css';
+
 /* XS */
 @media (min-width: 475px) {}
 
@@ -48,15 +50,23 @@
   font-family: "General Sans", sans-serif;
   margin: 0;
   line-height: calc(1em + 0.5rem);
-  color: var(--clr-light);
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+:root .lightTheme {
+  --clr-light: #070a13;
+  --clr-dark: #f1f5f9;
+  --clr-slate400: #1e293b;
+  --clr-slate600: #1e293b;
+  --clr-slate800: #1e293b;
+}
+
 body {
   background-color: var(--clr-dark);
+  color: var(--clr-light);
 }
 
 img,
@@ -94,6 +104,21 @@ strong {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 } 
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--clr-rose);
+  outline: 1px solid var(--clr-rose);
+  border-radius: 10px;
+}
 
 /* XS */
 @media (min-width: 475px) {

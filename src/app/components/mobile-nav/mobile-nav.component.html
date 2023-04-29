@@ -1,7 +1,7 @@
 <button
 	class="barMenu"
 	(click)="showHideMenu(controlMenu)"
-	[ngStyle]="{'position': changePosition, 'top': '30px', 'right': '15px',}"
+	[ngStyle]="{'position': changePosition, 'top': '30px', 'right': '20px',}"
 >
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
@@ -24,17 +24,21 @@
 			<a href="#about" class="mobileNavLink" (click)="goToSection()">Sobre</a>
 		</li>
 		<li>
-			<a href="#featured" class="mobileNavLink" (click)="goToSection()">Projetos</a>
+			<a href="#featured" class="mobileNavLink" (click)="goToSection()"
+				>Projetos</a
+			>
 		</li>
 		<li>
-			<a href="#contact" class="mobileNavLink" (click)="goToSection()">Contato</a>
+			<a href="#contact" class="mobileNavLink" (click)="goToSection()"
+				>Contato</a
+			>
 		</li>
 		<li class="horizontalLine"></li>
 		<li>
-			<button class="mobileLightMode">
+			<button class="mobileLightMode" (click)="toggleTheme()">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
+					fill="fill"
 					viewBox="0 0 24 24"
 					strokeWidth="{1.5}"
 					stroke="currentColor"
