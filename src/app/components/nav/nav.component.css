@@ -2,14 +2,6 @@ ul {
 	display: none;
 }
 
-li {
-	transition: scale 0.2s;
-}
-
-li:hover {
-	transform: scale(1.1);
-}
-
 @media (min-width: 768px) {
 	ul {
 		display: flex;
@@ -35,12 +27,24 @@ li:hover {
 	.lightMode {
 		display: block;
 		color: var(--clr-slate600);
-		width: var(--size-base);
-		height: var(--size-base);
+		width: var(--size-xl);
+		height: var(--size-xl);
 	}
 
 	a:hover {
 		color: var(--clr-rose);
+	}
+
+	li {
+		transition: scale 0.5s;
+	}
+	
+	li:hover {
+		transform: scale(1.1);
+	}
+	
+	.lightMode:hover {
+		transform: scale(1.2);
 	}
 }
 
@@ -51,8 +55,8 @@ li:hover {
 	}
 
 	.lightMode {
-		width: var(--size-xl);
-		height: var(--size-xl);
+		width: var(--size-2xl);
+		height: var(--size-2xl);
 	}
 }
 
@@ -63,8 +67,8 @@ li:hover {
 	}
 
 	.lightMode {
-		width: var(--size-2xl);
-		height: var(--size-2xl);
+		width: var(--size-3xl);
+		height: var(--size-3xl);
 	}
 }
 /* 2XL */

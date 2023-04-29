@@ -1,7 +1,6 @@
 .featured h2 {
 	font-size: var(--size-2xl);
 	color: var(--clr-slate400);
-    cursor: pointer;
     transition: transform 0.8s;
 }
 
@@ -155,5 +154,34 @@
     
     .label li {
         font-size: var(--size-xl);
+    }
+}
+
+/* 2XL */
+@media (min-width: 1536px) {
+    .featured h2 {
+		font-size: var(--size-6xl);
+	}
+    
+    .featured h3 {
+        font-size: var(--size-3xl);
+    }
+
+    .featuredLink {
+        width: var(--size-4xl);
+        height: var(--size-4xl);
+    }
+
+    .projectDescription {
+        font-size: var(--size-2xl);
+        margin: 2rem 0;
+    }
+
+    .label p {
+        font-size: var(--size-3xl);
+    }
+    
+    .label li {
+        font-size: var(--size-2xl);
     }
 }

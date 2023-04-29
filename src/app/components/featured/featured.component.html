@@ -1,8 +1,8 @@
 <section class="container featured">
 	<h3>Projeto em destaque</h3>
 	<div class="featuredLinkWrapper">
-		<h2>Clone buzzfeed</h2>
-		<a href="#" class="featuredLink">
+		<h2>{{featuredTitle}}</h2>
+		<a href="{{featuredLink}}" target="_blank" class="featuredLink">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -19,30 +19,25 @@
 		</a>
 	</div>
 	<p class="projectDescription">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nisi et
-		nulla cumque facilis eos culpa quo, laboriosam rem facere quos earum totam,
-		aliquam, eligendi soluta! Sunt soluta officia ipsum.
+		{{featuredDescription}}
 	</p>
 
 	<article class="aboutProject">
 		<div class="label">
 			<h3>Tecnologias usadas:</h3>
 			<ul>
-				<li>TypeScript</li>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>Angular</li>
+				<li *ngFor="let tech of featuredTecnologies">{{tech}}</li>
 			</ul>
 		</div>
 
 		<div class="label">
 			<h3>Tipo do projeto:</h3>
-			<p>Front-end completo</p>
+			<p>{{featuredType}}</p>
 		</div>
 
 		<div class="label">
 			<h3>Data da última versão:</h3>
-			<p>Abril/2023</p>
+			<p>{{featuredVersion}}</p>
 		</div>
 	</article>
 </section>

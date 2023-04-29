@@ -1,18 +1,16 @@
 <div class="projectContainer">
 	<h3 class="projectTitle">{{ projectName }}</h3>
-	<figure class="imageWrapper">
-		<img src="http://via.placeholder.com/640x640" alt="Project image" />
+	<figure class="imageWrapper" [ngStyle]="{'order': imageOrder}">
+		<img src="{{projectImage}}" alt="Project image" />
 	</figure>
-	<article class="projectDetails">
+	<article class="projectDetails" [ngStyle]="{'order': textOrder}">
 		<h3 class="gridProjectTitle">{{ projectName }}</h3>
 		<p class="description1">
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab reiciendis
-			similique aliquid cum dignissimos!
+			{{projectDescription1}}
 		</p>
 		<p class="description2">
-			Commodi ullam in dolorum suscipit, deserunt nostrum repellendus labore
-			molestias distinctio modi! Ut nulla enim fuga?
+			{{projectDescription2}}
 		</p>
-		<app-btn btnText="Ver projeto" />
+		<app-btn btnLink="{{projectLink}}" btnTarget="_blank" btnText="Ver projeto" />
 	</article>
 </div>

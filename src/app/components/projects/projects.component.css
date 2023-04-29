@@ -69,4 +69,12 @@
 }
 
 /* 2XL */
-@media (min-width: 1536px) {}
+@media (min-width: 1536px) {
+    .workTitle {
+        font-size: var(--size-6xl);
+    }
+    
+    .workDescription {
+        font-size: var(--size-2xl);
+    }
+}
