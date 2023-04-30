@@ -1,5 +1,8 @@
 # Portfolio
 
+Site portifólio que conta com componentes que puxam informações de base de dados, CSS responsivo e denso contando com light e dark mode, menu de navegação mobile, e display flex.
+O site também consta com um sistema de armazenamento de informações por meio da memória local do navegador que armazena se o usuário quer usar o site com light ou dark mode!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
