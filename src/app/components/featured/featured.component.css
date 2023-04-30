@@ -101,7 +101,6 @@
     }
 }
 
-/* L */
 @media (min-width: 1024px) {
 	.featured h2 {
 		font-size: var(--size-4xl);
@@ -129,7 +128,6 @@
     }
 }
 
-/* XL */
 @media (min-width: 1280px) {
 	.featured h2 {
 		font-size: var(--size-5xl);
@@ -158,7 +156,6 @@
     }
 }
 
-/* 2XL */
 @media (min-width: 1536px) {
     .featured h2 {
 		font-size: var(--size-6xl);

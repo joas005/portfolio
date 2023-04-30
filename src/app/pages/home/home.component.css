@@ -10,13 +10,6 @@ app-nav {
     display: none;
 }
 
-/* XS */
-@media (min-width: 475px) {}
-
-/* S */
-@media (min-width: 640px) {}
-
-/* M */
 @media (min-width: 768px) {
     app-nav {
         display: block;
@@ -26,11 +19,3 @@ app-nav {
         display: none;
     }
 }
-
-/* L */
-@media (min-width: 1024px) {}
-
-/* XL */
-@media (min-width: 1280px) {}
-/* 2XL */
-@media (min-width: 1536px) {}

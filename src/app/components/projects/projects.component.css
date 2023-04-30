@@ -20,7 +20,6 @@
     row-gap: 5rem;
 }
 
-/* XS */
 @media (min-width: 475px) {
     .workTitle {
         font-size: var(--size-3xl);
@@ -33,7 +32,6 @@
     
 }
 
-/* S */
 @media (min-width: 640px) {
     .projectsDescriptionContainer {
         display: flex;
@@ -42,10 +40,6 @@
     }    
 }
 
-/* M */
-@media (min-width: 768px) {}
-
-/* L */
 @media (min-width: 1024px) {
     .workTitle {
         font-size: var(--size-4xl);
@@ -56,7 +50,6 @@
     }
 }
 
-/* XL */
 @media (min-width: 1280px) {
     .workTitle {
         font-size: var(--size-5xl);
@@ -68,7 +61,6 @@
     }
 }
 
-/* 2XL */
 @media (min-width: 1536px) {
     .workTitle {
         font-size: var(--size-6xl);

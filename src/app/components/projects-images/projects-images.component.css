@@ -51,7 +51,6 @@
 	margin-bottom: 1rem;
 }
 
-/* XS */
 @media (min-width: 475px) {
 	.projectTitle {
 		font-size: var(--size-2xl);
@@ -64,7 +63,6 @@
 	}
 }
 
-/* S */
 @media (min-width: 640px) {
 	.projectContainer {
         display: grid;
@@ -88,7 +86,6 @@
 	}
 }
 
-/* M */
 @media (min-width: 768px) {
     .gridProjectTitle {
 		font-size: var(--size-xl);
@@ -100,7 +97,6 @@
 	}
 }
 
-/* L */
 @media (min-width: 1024px) {
 	.description1,
 	.description2 {
@@ -112,7 +108,6 @@
 	}
 }
 
-/* XL */
 @media (min-width: 1280px) {
 	.description1,
 	.description2 {
@@ -129,7 +124,6 @@
 	}
 }
 
-/* 2XL */
 @media (min-width: 1536px) {
     .gridProjectTitle {
 		font-size: var(--size-4xl);

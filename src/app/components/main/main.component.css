@@ -34,7 +34,6 @@ p {
 	color: var(--clr-slate600);
 }
 
-/* XS */
 @media (min-width: 475px) {
 	.hero {
 		gap: 1.5rem;
@@ -58,15 +57,6 @@ p {
 	}
 }
 
-/* S */
-@media (min-width: 640px) {
-}
-
-/* M */
-@media (min-width: 768px) {
-}
-
-/* L */
 @media (min-width: 1024px) {
 	img {
 		width: var(--size-9xl);
@@ -86,7 +76,6 @@ p {
 	}
 }
 
-/* XL */
 @media (min-width: 1280px) {
     .hero {
         gap: 2rem;
@@ -109,7 +98,7 @@ p {
 		font-size: var(--size-xl);
 	}
 }
-/* 2XL */
+
 @media (min-width: 1536px) {
     img {
 		width: 15rem;
