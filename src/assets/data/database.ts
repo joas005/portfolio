@@ -1,5 +1,6 @@
+/* Slots de projetos */
+
 export const dataBase = [
-    /* Slots de projetos */
     {
         id: '1',
         title: 'The dev blog',

@@ -1,5 +1,5 @@
+/* Slot reservado ao featured  */
 export const dataFeatured = [
-    /* Slot reservado ao featured  */
     {
         id: '1',
         title: 'Mini clone do Buzzfeed',
