@@ -49,7 +49,7 @@
 
 .mobileLightMode {
     display: block;
-    color: var(--clr-slate600);
+    color: var(--clr-light);
     width: var(--size-3xl);
     height: var(--size-3xl);
 }

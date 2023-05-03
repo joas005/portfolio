@@ -2,7 +2,7 @@ figure {
     margin-top: 1rem;
     display: grid;
     grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .imageWrapper {
@@ -28,7 +28,7 @@ figure {
 
 @media (min-width: 475px) {
     figure {
-        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin-top: 1.5rem;
         grid-gap: 1.5rem;
     }	
@@ -36,12 +36,7 @@ figure {
 
 @media (min-width: 1024px) {
 	figure {
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    }
-}
-
-@media (min-width: 1280px) {
-	figure {
+        grid-template-columns: 1fr 1fr 1fr;
         margin-top: 1.5rem;
         grid-gap: 1.5rem;
     }

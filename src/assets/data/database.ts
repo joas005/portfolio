@@ -7,7 +7,7 @@ export const dataBase = [
             'assets/images/Dev-blog.png',
         description1: `Blog de notícias dinâmico utilizando Angular.`,
         description2: `Blog de notícias que trabalha principalmente com o módulo de Angular routing, ao levar o usuário de forma rápida e eficiente a o conteúdo da matéria que ele clickou`,
-        link: '../images/Dev-blog.png',
+        link: 'https://github.com/joas005/angular-blog',
     },
     {
         id: '2',

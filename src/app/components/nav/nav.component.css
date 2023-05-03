@@ -26,9 +26,9 @@ ul {
 
 	.lightMode {
 		display: block;
-		color: var(--clr-slate600);
-		width: var(--size-xl);
-		height: var(--size-xl);
+		color: var(--clr-light);
+		width: var(--size-2xl);
+		height: var(--size-2xl);
 	}
 
 	a:hover {
@@ -54,8 +54,8 @@ ul {
 	}
 
 	.lightMode {
-		width: var(--size-2xl);
-		height: var(--size-2xl);
+		width: var(--size-3xl);
+		height: var(--size-3xl);
 	}
 }
 
@@ -65,7 +65,7 @@ ul {
 	}
 
 	.lightMode {
-		width: var(--size-3xl);
-		height: var(--size-3xl);
+		width: var(--size-4xl);
+		height: var(--size-4xl);
 	}
 }
