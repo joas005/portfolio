@@ -14,13 +14,13 @@
 
 .aboutTitle {
 	font-size: var(--size-2xl);
-	color: var(--clr-slate400);
+	color: var(--clr-slate200);
 }
 
 .aboutContent p {
 	max-width: 60ch;
 	font-size: var(--size-s);
-	color: var(--clr-slate600);
+	color: var(--clr-slate400);
 }
 
 .aboutContent hr {

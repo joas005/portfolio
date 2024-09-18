@@ -10,24 +10,15 @@
 	color: var(--clr-indigo);
 }
 
-.featuredLinkWrapper {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-.featuredLink {
-    display: inline-block;
-    width: var(--size-2xl);
-    height: var(--size-2xl);
-    transition: transform 0.3s;
-}
-
 .projectDescription {
     max-width: 60ch;
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
     font-size: var(--size-s);
     margin: 1rem 0;
+}
+
+.featured svg {
+    max-width: 2.5em;
 }
 
 .aboutProject {
@@ -42,7 +33,7 @@
 }
 
 .label h3 {
-    color: var(--clr-slate400);
+    color: var(--clr-slate200);
     font-size: var(--size-base);
     text-transform: capitalize;
     margin: 0;
@@ -50,7 +41,7 @@
 }
 
 .label p {
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
     font-size: var(--size-base);
 }
 
@@ -61,7 +52,7 @@
 
 .label li {
     font-size: var(--size-s);
-    color: var(--clr-slate600);
+    color: var(--clr-slate400);
     text-transform: capitalize;
 }
 

@@ -5,7 +5,6 @@
 	align-items: center;
 	gap: 1rem;
 	text-align: center;
-	margin-top: 2rem;
 }
 
 img {
@@ -15,28 +14,29 @@ img {
 }
 
 h2 {
-	color: var(--clr-slate600);
+	color: var(--clr-slate400);
 	font-size: var(--size-base);
 	line-height: 0.9;
 }
 
 h1 {
-	color: var(--clr-slate400);
+	color: var(--clr-slate200);
 	font-size: var(--size-3xl);
 	text-transform: uppercase;
 	letter-spacing: -0.05em;
 	line-height: 0.9;
+	margin: 1rem 0;
 }
 
 p {
 	max-height: 60ch;
 	font-size: var(--size-s);
-	color: var(--clr-slate600);
+	color: var(--clr-slate200);
 }
 
 @media (min-width: 475px) {
 	.hero {
-		gap: 1.5rem;
+		gap: 1rem;
 	}
 
 	img {
@@ -78,7 +78,7 @@ p {
 
 @media (min-width: 1280px) {
     .hero {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     img {

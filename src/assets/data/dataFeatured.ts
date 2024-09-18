@@ -1,22 +1,21 @@
 /* Slot reservado ao featured  */
 export const dataFeatured = [
-    {
-        id: '1',
-        title: 'Mini clone do Buzzfeed',
-        link: 'https://joas005.github.io/mini-buzzfeed-clone/',
-        tech: ['HTML', 'CSS', 'TypeScript', 'Angular'],
-        type: 'Front-end completo',
-        lastVersion: 'Abril/2023',
-        images: [
-            'assets/images/pergunta1.png',
-            'assets/images/opcaoEscolhida.png',
-            'assets/images/resultadoHeroi.png',
-            'assets/images/resultadoVilao.png',
-            'assets/images/resultadoAntiHeroi.png',
-            'assets/images/resultadoAntiHeroi2.png',
-        ],
-        description: `Último projeto do bootcamp Angular da plataforma DIO.
-        Pequeno site que consiste em uma versão mini de um quiz da plataforma de entretenimento Buzzfeed.
-        Conta com HTML e CSS responsivo assim como componentes 100% dinâmicos na atualização com relação ao tema do quiz, as perguntas, as opções e os resultados. Sendo necessário apenas atualizar as informações presentes no banco de dados.`,
-    },
+	{
+		id: '1',
+		title: 'Análise de dados da NBA 2023',
+		link: 'https://nba23stats.streamlit.app',
+		tech: ['Python', 'Análise de dados', 'Pandas', 'Plotly express'],
+		type: 'Análise de dados',
+		lastVersion: 'Agosto/2024',
+		images: [
+			'assets/images/NBAdescription.png',
+			'assets/images/NBAespecificteam.png',
+			'assets/images/NBApoints.png',
+			'assets/images/NBApoints3d.png',
+			'assets/images/NBAteams.png',
+			'assets/images/NBApesquisa.png',
+		],
+		description: `Explore o jogo além dos placares. Mergulhe no coração da ação da NBA com nossas visualizações de dados interativas. De tendências de desempenho dos jogadores a estatísticas de equipes e análises de partidas, descubra as histórias por trás de cada arremesso, passe e enterrada. Seja você um fã apaixonado ou um analista curioso, nossas ferramentas te permitem ver o jogo em novas dimensões. Comece agora e experimente a NBA como nunca antes!
+        `,
+	},
 ];
