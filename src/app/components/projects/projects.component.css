@@ -36,7 +36,7 @@
     .projectsDescriptionContainer {
         display: flex;
         flex-direction: column;
-        row-gap: 0.25rem;
+        row-gap: 1rem;
     }    
 }
 

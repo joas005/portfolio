@@ -12,9 +12,19 @@ button {
     color: #f1f5f9;
 }
 
+.btn-linkedin {
+    background-color: #0077b5;
+    box-shadow: 0 10px 20px rgba(32, 29, 225, 0.5), 0 6px 6px rgba(32, 29, 225, 0.5), 0 0 100px -10px var(--clr-indigo);
+}
+
 button:hover {
     transform: translateY(-3px);
     box-shadow: 0 14px 28px rgba(225, 29, 71, 0.25), 0 10px 10px rgba(225, 29, 71, 0.22), 0 0 120px -10px var(--clr-rose);
+}
+
+.btn-linkedin:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 28px rgba(32, 29, 225, 0.25), 0 10px 10px rgba(32, 29, 225, 0.22), 0 0 120px -10px var(--clr-indigo);
 }
 
 /* XS */

@@ -12,4 +12,10 @@ export class BtnComponent {
   btnLink: string = '';
   @Input()
   btnTarget: string = '';
+  @Input()
+  btnType: string = '';
+
+  getButtonClass(): string {
+    return this.btnType === 'linkedin' ? 'btn-linkedin' : 'btn-default';
+  }
 }

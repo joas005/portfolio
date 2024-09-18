@@ -38,7 +38,7 @@
 .description1 {
 	font-size: var(--size-s);
 	color: var(--clr-slate600);
-	margin: 0.5rem 0;
+	margin-left: 1rem;
 }
 
 .description1 {
