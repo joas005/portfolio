@@ -16,6 +16,7 @@ import { ProjectsImagesComponent } from './components/projects-images/projects-i
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MobileNavComponent } from './components/mobile-nav/mobile-nav.component';
+import { ContactBtnsComponent } from './components/contact-btns/contact-btns.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MobileNavComponent } from './components/mobile-nav/mobile-nav.component
     ContactComponent,
     FooterComponent,
     MobileNavComponent,
+    ContactBtnsComponent,
   ],
   imports: [
     BrowserModule,

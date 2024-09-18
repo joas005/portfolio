@@ -1,0 +1,18 @@
+<section>
+	<app-btn
+		btnText="Contato"
+		btnTarget="_blank"
+		btnLink="mailto:joaoferreirapaula005@gmail.com"
+	/>
+
+	<app-btn
+		btnText="Se conecte comigo"
+		btnTarget="_blank"
+		btnLink="https://www.linkedin.com/in/joao-ferreira-paula-ti/"
+		btnType="linkedin"
+	/>
+
+	<button class="btn-whatsapp" (click)="copyToClipboard('(11) 99128-3209')">
+		{{ buttonText }}
+	</button>
+</section>
