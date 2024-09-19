@@ -1,18 +1,29 @@
 <section>
-	<app-btn
-		btnText="Contato"
-		btnTarget="_blank"
-		btnLink="mailto:joaoferreirapaula005@gmail.com"
-	/>
+	<div>
+		<p>Veja meu currículo tradicional!</p>
+		<app-btn
+			btnText="Visualizar"
+			btnTarget="_blank"
+			btnLink="https://drive.google.com/file/d/1G7cZUUrzRkz4hxKLlhHl2ipat4SyjK3I/view?usp=drive_link"
+		></app-btn>
+	</div>
 
-	<app-btn
-		btnText="Se conecte comigo"
-		btnTarget="_blank"
-		btnLink="https://www.linkedin.com/in/joao-ferreira-paula-ti/"
-		btnType="linkedin"
-	/>
+	<section class="btnContainers">
+		<app-btn
+			btnText="Contato"
+			btnTarget="_blank"
+			btnLink="mailto:joaoferreirapaula005@gmail.com"
+		/>
 
-	<button class="btn-whatsapp" (click)="copyToClipboard('(11) 99128-3209')">
-		{{ buttonText }}
-	</button>
+		<app-btn
+			btnText="Se conecte comigo"
+			btnTarget="_blank"
+			btnLink="https://www.linkedin.com/in/joao-ferreira-paula-ti/"
+			btnType="linkedin"
+		/>
+
+		<button class="btn-whatsapp" (click)="copyToClipboard('(11) 99128-3209')">
+			{{ buttonText }}
+		</button>
+	</section>
 </section>

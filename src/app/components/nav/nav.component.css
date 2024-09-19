@@ -14,7 +14,7 @@ ul {
 	a {
 		font-size: var(--size-base);
 		font-weight: 600;
-		color: var(--clr-slate600);
+		color: var(--clr-slate400);
 		letter-spacing: -0.05em;
 		transition: color 0.3s;
 	}

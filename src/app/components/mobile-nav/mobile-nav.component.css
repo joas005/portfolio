@@ -1,6 +1,6 @@
 .barMenu {
 	display: block;
-	color: var(--clr-slate600);
+	color: var(--clr-slate400);
 	width: var(--size-2xl);
 	height: var(--size-2xl);
     position: relative;
