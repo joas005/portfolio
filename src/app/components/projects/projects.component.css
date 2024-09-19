@@ -1,5 +1,8 @@
 .work {
     text-align: center;
+    display: flex;
+	flex-direction: column;
+	gap: 1rem;
 }
 
 .workTitle {

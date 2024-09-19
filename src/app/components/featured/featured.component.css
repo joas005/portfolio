@@ -1,3 +1,9 @@
+.featured {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
 .title {
 	font-size: var(--size-2xl);
 	color: var(--clr-slate200);
