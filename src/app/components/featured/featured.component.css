@@ -193,13 +193,12 @@
 }
 
 @media (min-width: 1536px) {
-	.featured h2,
-	h2 svg {
-		font-size: var(--size-6xl);
-	}
-
 	.featured h2 svg {
-		max-height: var(--size-6xl);
+		max-height: var(--size-5xl);
+	}
+	
+	.featured h2 svg {
+		max-height: var(--size-5xl);
 	}
 
 	.featured h3 {
